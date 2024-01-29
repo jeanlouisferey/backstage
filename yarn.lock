@@ -189,25 +189,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@asyncapi/protobuf-schema-parser@npm:^3.0.6":
-  version: 3.0.6
-  resolution: "@asyncapi/protobuf-schema-parser@npm:3.0.6"
+"@asyncapi/protobuf-schema-parser@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@asyncapi/protobuf-schema-parser@npm:3.1.0"
   dependencies:
     "@asyncapi/parser": ^3.0.2
     "@types/protocol-buffers-schema": ^3.4.1
     protocol-buffers-schema: ^3.6.0
-  checksum: 9e185734971c10bcc5155b734939a74f3b87b4fe6173c8e4d404c723611b0257a67e4728c3999ea5d37d9ae89608026f73a9bdc4fb51bfa958eb5eece418aee3
+  checksum: 6f1b0860d63aaf23bff0cb44ce32575b0ce03ce4f1ef2cc09bac3ccd66ff64029fbf30025b42fe47a0ee5b7a5a04ba8727e14ae7466dfd0b489736c80b54ff8a
   languageName: node
   linkType: hard
 
-"@asyncapi/react-component@npm:1.2.13":
-  version: 1.2.13
-  resolution: "@asyncapi/react-component@npm:1.2.13"
+"@asyncapi/react-component@npm:1.2.14":
+  version: 1.2.14
+  resolution: "@asyncapi/react-component@npm:1.2.14"
   dependencies:
     "@asyncapi/avro-schema-parser": ^3.0.9
     "@asyncapi/openapi-schema-parser": ^3.0.10
     "@asyncapi/parser": ^3.0.2
-    "@asyncapi/protobuf-schema-parser": ^3.0.6
+    "@asyncapi/protobuf-schema-parser": ^3.1.0
     highlight.js: ^10.7.2
     isomorphic-dompurify: ^0.13.0
     marked: ^4.0.14
@@ -216,7 +216,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 1e870caa07a3507685ab52af7e34f31c47b31464159f435f29b0be68adf1c110dc0c9196d8f20ab1d6b998500bbac821181477897636322c0c29fe2708284871
+  checksum: a84af0a69759d8bbaa6fe239c8f5b56a9a219b61041d27e9946ba9aaa657ee48c4ac687a5db146c8654fa595b22088caa0a50c9cd79fcab6f5cf6117633e60ea
   languageName: node
   linkType: hard
 
@@ -4410,7 +4410,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-api-docs@workspace:plugins/api-docs"
   dependencies:
-    "@asyncapi/react-component": 1.2.13
+    "@asyncapi/react-component": 1.2.14
     "@backstage/catalog-model": "workspace:^"
     "@backstage/cli": "workspace:^"
     "@backstage/core-app-api": "workspace:^"
